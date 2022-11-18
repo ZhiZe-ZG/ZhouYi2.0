@@ -9,4 +9,5 @@ This is a identifier system for my digital library and references.
 
 * [IAN](./IAN.md)
 * ISSN
+* [MobyGames](./MobyGames.md)
 
