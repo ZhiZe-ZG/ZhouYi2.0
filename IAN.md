@@ -2,6 +2,16 @@
 
 `IAN` means " International Article Number", (also know as "European Article Number" or "EAN")[^IAN]. It's a 13-digit code for global trade. In  ZhouYi2.0 mainly use the 977, 978, 979 subspaces to identifier magazines, books, music and other publications.
 
+## Syntax
+
+```
+IAN:<main number>[:<additional number>]
+```
+
+`<main number>` is the IAN 13-digit code of a item.
+
+`<additional number>` is the add-on symbol of a item (if has).
+
 ## ISSN
 
 介绍指杂志的 ISSN
@@ -16,9 +26,13 @@
 
 没有条形码的杂志理论上不使用这个系统管理，这个系统只管理实体
 
+https://www.gs1.org/standards/barcodes-epcrfid-id-keys/gs1-general-specifications (最新标准)
+
 https://www.gs1ca.org/files/GS1_General_Specifications_V17.pdf
 
 ## ISBN
+
+用于标记图书等出版物。
 
 ## 复制标准
 

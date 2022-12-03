@@ -2,11 +2,11 @@
 
 IMBD is a movie and TV database.
 
-# Syntax
+## Syntax
 
 ```
 IMDB:<parameters>
 ```
 
-`<parameters>` is the remainder of the URL minus `https://www.imdb.com/`。
+`<parameters>` is the remainder of the URL minus `https://www.imdb.com/`.
 
