@@ -12,6 +12,8 @@ IAN:<main number>[:<additional number>]
 
 `<additional number>` is the add-on symbol of a item (if has).
 
+Numbers (both `<main number>` and `<additional number>`) can be seperate by `-` if need according each sub-specification.
+
 ## ISSN
 
 介绍指杂志的 ISSN
