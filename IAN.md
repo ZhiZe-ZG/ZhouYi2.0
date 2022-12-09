@@ -2,6 +2,8 @@
 
 `IAN` means " International Article Number", (also know as "European Article Number" or "EAN")[^IAN]. It's a 13-digit code for global trade. In  ZhouYi2.0 mainly use the 977, 978, 979 subspaces to identifier magazines, books, music and other publications.
 
+标准参考： <https://www.gs1.org/standards>
+
 ## Syntax
 
 ```
