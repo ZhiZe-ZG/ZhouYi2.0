@@ -16,41 +16,21 @@ Numbers (both `<main number>` and `<additional number>`) can be seperate by `-` 
 
 ## ISSN
 
-介绍指杂志的 ISSN
+用于标记杂志和报纸等连续出版物，每个出版物一个 8 位编号，其最后一位是校验位。在 IAN 中使用时仅使用其中的前 7 位。
 
-然后是 GS1 的补充数据区分期刊号
+IAN 的杂志编号以 `977` 开头，后接 7 位 ISSN。最后一位是 IAN 校验位，其余两位用于表示额外信息（如版本变种等）。杂志的期号则一般用 IAN 的 additional number 表示。因此记录杂志的 IAN 时要记录 additional number （如果有的话）。
 
-但是后边的补充数据好像是可选的
-
-如果附加数据不能区分具体期刊，考虑 SICI 或 PII （感觉 SICI 更靠谱一点）PII 太简陋， SICI 已经在 2012 召回了，所以干脆对于重复数字不做处理。
-
-或者更好的方法是如果两本杂志的 GS1 连附加值都完全一样，视作一个整体，就像一个 ISBN 的上下册那样
-
-没有条形码的杂志理论上不使用这个系统管理，这个系统只管理实体
-
-https://www.gs1.org/standards/barcodes-epcrfid-id-keys/gs1-general-specifications (最新标准)
-
-https://www.gs1ca.org/files/GS1_General_Specifications_V17.pdf
+如果不同的杂志对应完全相同的 IAN （即便 additional number 也一致），则这些不同的杂志视为同一本杂志的不同部分。此外不再使用其他区分杂志期号的额外信息。
 
 ## ISBN
 
-用于标记图书等出版物。
+用于标记图书等出版物。以 `978` 或 `979` 开头。其号码不同分段可以表示地区和出版社等信息，但是没有统一的划分方式。目前可以 [ISBN converter](https://www.isbn.org/ISBN_converter) 的格式化的转换结果为准。
 
-## 复制标准
+如果没有分册或者额外内容等需要识别， ISBN 码段的 IAN 即便附有 additional number 也可以不记录。
 
-这个系统中很多东西不一定是数字化的，可能是印刷品或者载体
+## ISMN
 
-其数字版应该是其内容的数字化复制
-
-如果是 CD 等数字载体，则复制其数字内容
-
-如果是 电子书可以复制其文字格式的电子版
-
-没有电子版的书籍和杂志使用扫描件， 模拟记录载体进行数字化翻录
-
-杂志附赠模型等也只能拍照或者采样建模保存
-
-这些翻录不一定能做到完备
+用于标记音频出版物，使用 `979` 开头（与 ISBN 共用）。其不同分段可以表示地区和出版社等信息。如果出版物上没有标注分段，可以参考 [ISMN directory](https://www.ismn-international.org/directory) 标注。
 
 ## References
 
