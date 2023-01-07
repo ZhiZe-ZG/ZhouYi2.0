@@ -9,5 +9,6 @@ This is a identifier system for my digital library and references.
 
 * [IAN](./IAN.md)
 * [MobyGames](./MobyGames.md)
+* [BGG](./BGG.md)
 * [IMDB](./IMDB.md)
 * [URL](./URL.md)
