@@ -12,3 +12,4 @@ This is a identifier system for my digital library and references.
 * [BGG](./BGG.md)
 * [IMDB](./IMDB.md)
 * [URL](./URL.md)
+* [DOI](./DOI.md)

@@ -6,9 +6,8 @@ IMBD is a movie and TV database.
 
 ## Syntax
 
-```
+```text
 IMDB:<parameters>
 ```
 
 `<parameters>` is the remainder of the URL minus `https://www.imdb.com/`.
-

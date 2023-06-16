@@ -6,7 +6,7 @@
 
 ## Syntax
 
-```
+```text
 IAN:<main number>[:<additional number>]
 ```
 
@@ -36,4 +36,4 @@ IAN 的杂志编号以 `977` 开头，后接 7 位 ISSN。最后一位是 IAN �
 
 ## References
 
-[^IAN]: https://en.wikipedia.org/wiki/International_Article_Number
+[^IAN]: <https://en.wikipedia.org/wiki/International_Article_Number>
